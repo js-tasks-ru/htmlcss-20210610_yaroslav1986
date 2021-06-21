@@ -2,11 +2,34 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/normalize.css">
     </head>
     <body>
         <main>
-            <span>Hello world</span>
+            <div class="buttons">
+                <div class="buttons__title">Buttons</div>
+
+                <div class="buttons_wrapper">
+                    <span class="btn_type_name">Default</span>
+                    <button class="primary_button" >Primary</button>
+                    <button class="secondary_button" >Secondary</button>
+                    <button class="alternate_button" >Alternate</button>
+                    
+                    <span class="btn_type_name">Hover</span>
+                    <button class="primary_button primary_button-hover"  >Primary</button>
+                    <button class="secondary_button secondary_button-hover" >Secondary</button>
+                    <button class="alternate_button alternate_button-hover" >Alternate</button>
+                    
+                    <span class="btn_type_name">Disabled</span>
+                    <button class="primary_button" disabled>Primary</button>
+                    <button class="secondary_button" disabled>Secondary</button>
+                    <button class="alternate_button" disabled>Alternate</button>
+
+                </div>
+
+            </div>
         </main>
     </body>
 </html>
