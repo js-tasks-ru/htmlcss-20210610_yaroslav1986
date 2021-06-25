@@ -1,1 +1,97 @@
-/* Стилизация кнопки */
+.block__title {
+  font-size: var(--title-font-size);
+}
+
+.buttons_wrapper {
+  display: grid;
+  grid-template-columns: 65px 189px 189px 189px;
+  gap: 16px 32px;
+  margin-left: 240px;
+}
+
+.btn_type_title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: var(--description-font-size);
+  color: var(--grey-3);
+}
+
+.primary_btn {
+  font-size: var(---button-font-size);
+  width: 189px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.primary_btn:hover {
+  background-color: var(--primary_hover);
+}
+
+.primary_btn-hover {
+  background-color: var(--primary_hover);
+}
+
+.primary_btn:disabled {
+  background-color: var(--primary_disabled);
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.secondary_btn {
+  font-size: var(---button-font-size);
+  width: 189px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--secondary);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.secondary_btn:hover {
+  background-color: var(--secondary_hover);
+}
+
+.secondary_btn-hover {
+  background-color: var(--secondary_hover);
+}
+
+.secondary_btn:disabled {
+  background-color: var(--secondary_disabled);
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.alternate_btn {
+  font-size: var(---button-font-size);
+  width: 189px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-3);
+  color: var(--grey-4);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.alternate_btn:hover {
+  border: 1px solid var(--grey-4);
+}
+
+.alternate_btn-hover {
+  border: 1px solid var(--grey-4);
+}
+
+.alternate_btn:disabled {
+  border: 1px solid var(--grey-2);
+  color: var(--grey-2);
+  cursor: default;
+  pointer-events: none;
+}

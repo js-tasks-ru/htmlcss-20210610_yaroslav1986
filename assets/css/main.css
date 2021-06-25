@@ -1,4 +1,6 @@
 @import '../fonts/fonts.css';
+@import 'reset.css';
+@import 'normalize.css';
 
 :root {
   --white: #ffffff;
@@ -41,106 +43,11 @@ body {
   background-color: var(--grey-2);
 }
 
-.buttons {
+.component {
   display: flex;
   box-sizing: border-box;
   width: 1440px;
   padding: 165px 139px;
   margin: 0 auto;
   background-color: var(--white);
-}
-
-.buttons__title {
-  font-size: var(--title-font-size);
-}
-
-.buttons_wrapper {
-  display: grid;
-  grid-template-columns: 65px 189px 189px 189px;
-  gap: 16px 32px;
-  margin-left: 240px;
-}
-
-.btn_type_name {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  text-transform: uppercase;
-  font-size: var(--description-font-size);
-  color: var(--grey-3);
-}
-
-.primary_button {
-  font-size: var(---button-font-size);
-  width: 189px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: var(--primary);
-  color: var(--white);
-  border: none;
-  cursor: pointer;
-}
-
-.primary_button:hover {
-  background-color: var(--primary_hover);
-}
-
-.primary_button-hover {
-  background-color: var(--primary_hover);
-}
-
-.primary_button:disabled {
-  background-color: var(--primary_disabled);
-  opacity: 0.5;
-  cursor: default;
-}
-
-.secondary_button {
-  font-size: var(---button-font-size);
-  width: 189px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: var(--secondary);
-  color: var(--white);
-  border: none;
-  cursor: pointer;
-}
-
-.secondary_button:hover {
-  background-color: var(--secondary_hover);
-}
-
-.secondary_button-hover {
-  background-color: var(--secondary_hover);
-}
-
-.secondary_button:disabled {
-  background-color: var(--secondary_disabled);
-  opacity: 0.5;
-  cursor: default;
-}
-
-.alternate_button {
-  font-size: var(---button-font-size);
-  width: 189px;
-  height: 48px;
-  border-radius: 8px;
-  border: 1px solid var(--grey-3);
-  color: var(--grey-4);
-  background-color: var(--white);
-  cursor: pointer;
-}
-
-.alternate_button:hover {
-  border: 1px solid var(--grey-4);
-}
-
-.alternate_button-hover {
-  border: 1px solid var(--grey-4);
-}
-
-.alternate_button:disabled {
-  border: 1px solid var(--grey-2);
-  color: var(--grey-2);
-  cursor: default;
 }
