@@ -19,11 +19,9 @@
 
   --primary: var(--blue);
   --primary_hover: #2342c0;
-  --primary_disabled: #4263eb;
 
   --secondary: var(--purple);
   --secondary_hover: #5028c6;
-  --secondary_disabled: #7048e8;
 
   --title-font-size: 38px;
 
@@ -50,4 +48,8 @@ body {
   padding: 165px 139px;
   margin: 0 auto;
   background-color: var(--white);
+}
+
+.component__title {
+  font-size: var(--title-font-size);
 }

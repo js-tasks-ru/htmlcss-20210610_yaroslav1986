@@ -1,7 +1,3 @@
-.block__title {
-  font-size: var(--title-font-size);
-}
-
 .buttons_wrapper {
   display: grid;
   grid-template-columns: 65px 189px 189px 189px;
@@ -18,37 +14,37 @@
   color: var(--grey-3);
 }
 
-.primary_btn {
-  font-size: var(---button-font-size);
+.btn {
   width: 189px;
   height: 48px;
   border-radius: 8px;
   background-color: var(--primary);
-  color: var(--white);
   border: none;
   cursor: pointer;
+  font-size: var(---button-font-size);
 }
 
-.primary_btn:hover {
+.btn-primary {
+  font-size: var(---button-font-size);
+  color: var(--white);
+}
+
+.btn-primary:hover {
   background-color: var(--primary_hover);
 }
 
-.primary_btn-hover {
+/* dev purposes only */
+.primary_btn_hovered {
   background-color: var(--primary_hover);
 }
 
-.primary_btn:disabled {
-  background-color: var(--primary_disabled);
+.btn-primary:disabled {
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
 }
 
 .secondary_btn {
-  font-size: var(---button-font-size);
-  width: 189px;
-  height: 48px;
-  border-radius: 8px;
   background-color: var(--secondary);
   color: var(--white);
   border: none;
@@ -59,33 +55,29 @@
   background-color: var(--secondary_hover);
 }
 
-.secondary_btn-hover {
+/* dev purposes only */
+.secondary_btn_hovered {
   background-color: var(--secondary_hover);
 }
 
 .secondary_btn:disabled {
-  background-color: var(--secondary_disabled);
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
 }
 
 .alternate_btn {
-  font-size: var(---button-font-size);
-  width: 189px;
-  height: 48px;
-  border-radius: 8px;
   border: 1px solid var(--grey-3);
   color: var(--grey-4);
   background-color: var(--white);
-  cursor: pointer;
 }
 
 .alternate_btn:hover {
   border: 1px solid var(--grey-4);
 }
 
-.alternate_btn-hover {
+/* dev purposes only */
+.alternate_btn_hovered {
   border: 1px solid var(--grey-4);
 }
 
