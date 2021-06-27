@@ -52,4 +52,5 @@ body {
 
 .component__title {
   font-size: var(--title-font-size);
+  font-family: 'Inter', sans-serif;
 }

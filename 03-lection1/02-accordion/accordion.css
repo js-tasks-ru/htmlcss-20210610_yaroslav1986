@@ -12,6 +12,7 @@
 }
 
 .accordion__item {
+  font-family: 'Inter', sans-serif;
   width: 730px;
   padding: 24px 32px;
 }
