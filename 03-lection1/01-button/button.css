@@ -22,6 +22,7 @@
   border: none;
   cursor: pointer;
   font-size: var(---button-font-size);
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .btn-primary {
