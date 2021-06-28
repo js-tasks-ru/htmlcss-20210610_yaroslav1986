@@ -39,7 +39,7 @@
 .component {
   display: flex;
   box-sizing: border-box;
-  width: 1440px;
+  max-width: 1440px;
   padding: 165px 139px;
   margin: 0 auto;
   background-color: var(--white);

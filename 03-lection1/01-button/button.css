@@ -1,10 +1,3 @@
-.buttons_wrapper {
-  display: grid;
-  grid-template-columns: 65px 189px 189px 189px;
-  gap: 16px 32px;
-  margin-left: 240px;
-}
-
 .btn_type_title {
   display: flex;
   align-items: center;
@@ -24,12 +17,12 @@
   font-size: var(---button-font-size);
 }
 
-.btn-primary {
+.btn_primary {
   font-size: var(---button-font-size);
   color: var(--white);
 }
 
-.btn-primary:hover {
+.btn_primary:hover {
   background-color: var(--primary_hover);
 }
 
@@ -38,50 +31,50 @@
   background-color: var(--primary_hover);
 }
 
-.btn-primary:disabled {
+.btn_primary:disabled {
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
 }
 
-.secondary_btn {
+.btn_secondary {
   background-color: var(--secondary);
   color: var(--white);
   border: none;
   cursor: pointer;
 }
 
-.secondary_btn:hover {
+.btn_secondary:hover {
   background-color: var(--secondary_hover);
 }
 
 /* dev purposes only */
-.secondary_btn_hovered {
+.btn_secondary_hovered {
   background-color: var(--secondary_hover);
 }
 
-.secondary_btn:disabled {
+.btn_secondary:disabled {
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
 }
 
-.alternate_btn {
+.btn_alternate {
   border: 1px solid var(--grey-3);
   color: var(--grey-4);
   background-color: var(--white);
 }
 
-.alternate_btn:hover {
+.btn_alternate:hover {
   border: 1px solid var(--grey-4);
 }
 
 /* dev purposes only */
-.alternate_btn_hovered {
+.btn_alternate_hovered {
   border: 1px solid var(--grey-4);
 }
 
-.alternate_btn:disabled {
+.btn_alternate:disabled {
   border: 1px solid var(--grey-2);
   color: var(--grey-2);
   cursor: default;

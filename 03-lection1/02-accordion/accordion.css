@@ -1,9 +1,3 @@
-.accordion__wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-left: 240px;
-}
-
 .accordion {
   margin-top: 8px;
   color: var(--grey-4);
@@ -38,8 +32,4 @@
 
 .accordion__item:last-child {
   margin-bottom: 0;
-}
-
-details summary::-webkit-details-marker {
-  display: none;
 }
