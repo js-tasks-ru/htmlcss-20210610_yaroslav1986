@@ -1,12 +1,3 @@
-.btn_type_title {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  text-transform: uppercase;
-  font-size: var(--description-font-size);
-  color: var(--grey-3);
-}
-
 .btn {
   width: 189px;
   height: 48px;
@@ -23,11 +14,6 @@
 }
 
 .btn_primary:hover {
-  background-color: var(--primary_hover);
-}
-
-/* dev purposes only */
-.primary_btn_hovered {
   background-color: var(--primary_hover);
 }
 
@@ -48,11 +34,6 @@
   background-color: var(--secondary_hover);
 }
 
-/* dev purposes only */
-.btn_secondary_hovered {
-  background-color: var(--secondary_hover);
-}
-
 .btn_secondary:disabled {
   opacity: 0.5;
   cursor: default;
@@ -66,11 +47,6 @@
 }
 
 .btn_alternate:hover {
-  border: 1px solid var(--grey-4);
-}
-
-/* dev purposes only */
-.btn_alternate_hovered {
   border: 1px solid var(--grey-4);
 }
 

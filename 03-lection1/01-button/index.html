@@ -13,6 +13,15 @@
                 gap: 16px 32px;
                 margin-left: 240px;
             }
+
+            .btn_type_title {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                text-transform: uppercase;
+                font-size: var(--description-font-size);
+                color: var(--grey-3);
+            }
         </style>
         <div class="component">
             <div class="component__title">Buttons</div>
@@ -22,11 +31,6 @@
                 <button class="btn btn_primary" >Primary</button>
                 <button class="btn btn_secondary" >Secondary</button>
                 <button class="btn btn_alternate" >Alternate</button>
-                
-                <span class="btn_type_title">Hover</span>
-                <button class="btn btn_primary primary_btn_hovered"  >Primary</button>
-                <button class="btn btn_secondary btn_secondary_hovered" >Secondary</button>
-                <button class="btn btn_alternate btn_alternate_hovered" >Alternate</button>
                 
                 <span class="btn_type_title">Disabled</span>
                 <button class="btn btn_primary" disabled>Primary</button>
