@@ -6,6 +6,53 @@
         <link rel="stylesheet" href="./histogram.css">
     </head>
     <body>
+        <style>
+            .component__wrapper {
+                display: flex;
+            }
+        </style>
+        <div class="component">
+            <div class="component__wrapper">
+                <div class="component__title">
+                    Histogram
+                </div>
+                <div class="histogram">
+                    <div class="histogram__inner-wrapper">
 
+                        <span class="histogram__title">Total orders</span>
+                        <span class="histogram__details">View all</span>
+                    </div>
+                    <span class="histogram__qty">50254</span>
+                    <div class="histogram__values">
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
+    
+    <script>
+        //random histogram values array length
+        const itemQty = Math.round(40 * Math.random());
+        
+        //fill it with random values
+        const histogramValues = Array(itemQty).fill().map(() => Math.round(Math.random() * 40))
+        
+        //calc column width according fixed histogram width 304px
+        const valuesWidth = (304 - itemQty)/itemQty;
+
+        // create random histogram 
+        const histogramValuesContainer = document.querySelector(".histogram__values");
+        histogramValues.forEach((height) => {
+            const element = document.createElement('div');
+            element.innerHTML = 
+                `<div 
+                    class="histogram__item" 
+                    style="background-color:var(--blue);
+                    width: ${valuesWidth}px;
+                    height: ${height}px;">
+                </div>`
+            histogramValuesContainer.appendChild(element)
+                debugger;
+        })
+    </script>
 </html>
