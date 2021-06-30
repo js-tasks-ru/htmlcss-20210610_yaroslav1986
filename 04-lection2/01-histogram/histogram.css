@@ -1,4 +1,7 @@
 .histogram {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 185px;
   width: 354px;
   box-sizing: border-box;
@@ -6,7 +9,6 @@
   background-color: var(--white);
   border: 1px solid var(--grey-4);
   border-radius: 8px;
-  margin-left: 184px;
 }
 
 .histogram__inner-wrapper {
