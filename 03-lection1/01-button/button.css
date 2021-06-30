@@ -8,6 +8,11 @@
   font-size: var(---button-font-size);
 }
 
+.btn:disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
 .btn_primary {
   font-size: var(---button-font-size);
   color: var(--white);
@@ -19,15 +24,11 @@
 
 .btn_primary:disabled {
   opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
 }
 
 .btn_secondary {
   background-color: var(--secondary);
   color: var(--white);
-  border: none;
-  cursor: pointer;
 }
 
 .btn_secondary:hover {
@@ -36,8 +37,6 @@
 
 .btn_secondary:disabled {
   opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
 }
 
 .btn_alternate {
@@ -53,6 +52,4 @@
 .btn_alternate:disabled {
   border: 1px solid var(--grey-2);
   color: var(--grey-2);
-  cursor: default;
-  pointer-events: none;
 }
