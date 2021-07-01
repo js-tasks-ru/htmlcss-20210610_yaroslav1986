@@ -6,13 +6,36 @@
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <style>
+            .component__wrapper {
+                margin-left: 240px;
+            }
+        </style>
+        <div class="component">
+            <div class="component__title">Accordion</div>
+            
+            <div class="component__wrapper">
+                <div class="accordion">
+                    <details class="accordion__item">
+                        <summary class="accordion__summary">Accordion item 1</summary>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </details>
+                </div>
+                    
+                <div class="accordion">
+                    <details class="accordion__item">
+                        <summary class="accordion__summary">Accordion item 2</summary>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </details>
+                </div>
+                    
+                <div class="accordion">
+                    <details class="accordion__item">
+                        <summary class="accordion__summary">Accordion item 3</summary>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </details>
+                </div>
+            </div>  
+        </div>
     </body>
 </html>
